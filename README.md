@@ -1,5 +1,7 @@
 # 🪄 FileSurgeon
 
+<img src="file-surgeon.webp" alt="file-surgeon">
+
 > Deep file carving, MIME-aware extraction, and forensic artifact recovery for disk images, memory dumps, and raw binary streams.
 
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
