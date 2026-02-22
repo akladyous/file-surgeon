@@ -1,5 +1,7 @@
 # 🪄 FileSurgeon
 
+> Deep file carving, MIME-aware extraction, and forensic artifact recovery for disk images, memory dumps, and raw binary streams.
+
 [![Python](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Forensics](https://img.shields.io/badge/domain-Digital%20Forensics-critical)](.)
