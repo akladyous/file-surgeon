@@ -1,0 +1,20 @@
+{
+    "techstack": [
+        "Python",
+        "Google Magika",
+        "Shannon Entropy Analysis",
+        "File Signature Detection",
+        "Binary Stream Processing",
+        "YAML",
+        "pytest",
+        "argparse",
+        "logging",
+        "dataclasses"
+    ],
+    "highlights": [
+        "Engineered a dual-mode file carving tool operable as a standalone CLI or an importable Python library, exposing a clean public API (scan_path, scan_files) fully decoupled from CLI concerns for seamless integration into forensics pipelines.",
+        "Integrated Google Magika's deep-learning-based content detection as a MIME validation layer to re-identify every carved candidate against its expected signature, significantly reducing false positives on fragmented or corrupted media.",
+        "Designed a structured FileScanResult dataclass with typed fields (mime_type, label, status, error) and serialization support, replacing raw dict returns to enforce type safety and improve downstream interoperability.",
+        "Implemented production-grade engineering patterns including per-file error isolation, standard logging throughout (no rogue print calls), CI-friendly exit codes, and a pluggable YAML signature registry for extending file type detection without code changes."
+    ]
+}
